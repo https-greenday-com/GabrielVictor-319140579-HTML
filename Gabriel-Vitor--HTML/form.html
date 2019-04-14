@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
+	<style>
+		.jumbotron {
+			width: 500px;
+			text-align: center;
+			margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 20px;
+		}
+		.table {
+			margin-top: 0px;
+		}
+		.form-control {
+			margin-bottom: 0px;
+		}
+		.botao{
+			width: 100px;
+			margin: 0px auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron">
+		<table>
+			<form action="">
+				<thead>Formulario</thead>
+				<tr>
+					<td>Nome:</td>
+					<td><input type="text" name="nome" class="form-control"></td>
+				</tr>
+				<tr>		
+					<td>Sobrenome:</td>
+					<td><input type="text" name="sobrenome" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>Data Nascimento:</td>
+					<td><input type="date" name="nascimento" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>RG:</td>
+					<td><input type="text" name="identidade" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>CPF:</td>
+					<td><input type="text" name="cpf" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>Masculino:</td>
+					<td><input type="radio" name="sexo" value="Masc" class="radio"></td>
+				</tr>
+				<tr>
+					<td>Feminino:</td>
+					<td><input type="radio" name="sexo" value="Fem" class="radio"></td>
+				</tr>
+				<tr>
+					<td>Estado Civil:</td>
+					<td><input type="text" name="ecivil" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>Telefone:</td>
+					<td><input type="number" name="tel" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>Celular:</td>
+					<td><input type="number" name="cel" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>E-mail:</td>
+					<td><input type="email" name="email" class="form-control"></td>
+				</tr>
+			</form>
+		</table>
+		<br>
+		<table>
+			<form action="">
+				<thead>Endereço</thead>
+				<tr>
+					<td>Rua:</td>
+					<td><input type="text" name="nome" class="form-control"></td>
+				</tr>
+				<tr>		
+					<td>Numero:</td>
+					<td><input type="text" name="sobrenome" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>Bairro:</td>
+					<td><input type="text" name="nascimento" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>Estado:</td>
+					<td>
+						<select name="estado" class="form-control"> 
+						    <option value="--">--</option> 
+						    <option value="ac">Acre</option> 
+						    <option value="al">Alagoas</option> 
+						    <option value="am">Amazonas</option> 
+						    <option value="ap">Amapá</option> 
+						    <option value="ba">Bahia</option> 
+						    <option value="ce">Ceará</option> 
+						    <option value="df">Distrito Federal</option> 
+						    <option value="es">Espírito Santo</option> 
+						    <option value="go">Goiás</option> 
+						    <option value="ma">Maranhão</option> 
+						    <option value="mt">Mato Grosso</option> 
+						    <option value="ms">Mato Grosso do Sul</option> 
+						    <option value="mg">Minas Gerais</option> 
+						    <option value="pa">Pará</option> 
+						    <option value="pb">Paraíba</option> 
+						    <option value="pr">Paraná</option> 
+						    <option value="pe">Pernambuco</option> 
+						    <option value="pi">Piauí</option> 
+						    <option value="rj">Rio de Janeiro</option> 
+						    <option value="rn">Rio Grande do Norte</option> 
+						    <option value="ro">Rondônia</option> 
+						    <option value="rs">Rio Grande do Sul</option> 
+						    <option value="rr">Roraima</option> 
+						    <option value="sc">Santa Catarina</option> 
+						    <option value="se">Sergipe</option> 
+						    <option value="sp">São Paulo</option> 
+						    <option value="to">Tocantins</option> 
+					 	</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Cidade:</td>
+					<td><input type="text" name="cpf" class="form-control"></td>
+				</tr>
+				<tr>
+					<td>CEP:</td>
+					<td><input type="text" name="sexo" class="form-control"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Concluir" class="botao>
+				</tr>
+			</form>
+		</table>
+	</div>
+</body>
+</html>

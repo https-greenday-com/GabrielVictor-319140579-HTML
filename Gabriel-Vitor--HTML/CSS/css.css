@@ -1,0 +1,32 @@
+.caixa{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border: 1px solid black;
+	margin-top: 100px: 
+}
+
+.caixa-1{
+
+}
+.caixa-2{
+	position: fixed;
+	bottom: 0;
+	left:  600px
+	
+}
+.caixa-3{
+	position: relative;
+	top: 0;
+	left: 150px;
+	
+}
+.caixa-4{
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	
+}
+.caixa-5{
+	
+}
